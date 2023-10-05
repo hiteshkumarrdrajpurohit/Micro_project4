@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:#333f60;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 50px;
+}
+.container1{
+    height: 100px;
+    width: 500px;
+    background: #181F32;
+    border-radius: 20px;
+    color: whitesmoke;
+    font-size: 50px;
+    text-align: right;
+    padding: 10px;
+    
+}
+.container2{
+padding: 20px;
+display: grid;
+grid-template-columns: repeat(4,100px);
+grid-template-rows: repeat(5,50px);
+column-gap: 10px;
+row-gap: 10px;
+width: 500px;
+/* height: */
+background-color: #252D44;
+border-radius: 20px;
+
+}
+#Evaluation, #Reset{
+    grid-column: span 2;
+    border-radius: 10px;
+    color: white;
+}
+#button17, #buttonDel, .MainButton{
+    background:#556695;
+    border-radius: 10px;
+    color: white;
+    font-weight: 1000;
+}
+#button18{
+    background:red;
+}
+.number, .Operator{
+    background: #EAE3DB;
+
+    border-radius: 10px;
+    font-size: large;
+}
